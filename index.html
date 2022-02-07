@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Мой сайт</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<main>
+<header>
+    <div class="container container_header">
+        <div class="menu_burger">
+            <span></span>
+        </div>
+        <a href="#" class="logo">
+            <img src="img/logo.png" alt="logo">
+        </a>
+        <div class="feedback">
+            <a class="phone" href="tel:+74997777777">+7(499) 777-77-77</a>
+            <a class="phone" href="tel:+74997777777">+7(499) 777-77-77</a>
+            <a class="feedback_link" href="#modal">Обратная связь</a>
+        </div>
+    </div>
+
+    <div class="remodal" data-remodal-id="modal">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <h2>Обратная связь</h2>
+        <form action="" class="feedback_form">
+            <label for="username">Ваше имя *</label>
+            <input type="text" id="username">
+            <label for="tel">Телефон *</label>
+            <input type="tel" id="tel">
+            <label for="email">Email *</label>
+            <input type="email" id="email">
+            <label for="message">Сообщение</label>
+            <textarea name="" id="message"></textarea>
+            <button>ОТПРАВИТЬ</button>
+        </form>
+    </div>
+
+    <nav>
+        <ul class="menu-wrap">
+            <li class="menu-item"><a class="menu-link" href="">Главная</a></li>
+            <li class="menu-item"><a class="menu-link" href="">Каталог</a></li>
+            <li class="menu-item"><a class="menu-link" href="">Доставка и оплата</a></li>
+            <li class="menu-item"><a class="menu-link" href="">Прайс-лист</a></li>
+            <li class="menu-item"><a class="menu-link" href="">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<section class="slider_block">
+    <div class="slider">
+        <div class="slider_item"><img class="slider_img" src="img/slider/slide1.png" alt=""></div>
+        <div class="slider_item"><img class="slider_img" src="img/slider/slide2.png" alt=""></div>
+    </div>
+</section>
+
+<section class="catalog">
+    <div class="container">
+        <div class="path">Главная /  Каталог  /   Бытовая техника</div>
+        <div class="wrap">
+            <div class="categories">
+                <ul class="list_categories">
+                    <li class="list_categories-item">
+                        <span>Автомобили</span>
+                    </li>
+                    <li class="list_categories-item">
+                        <span>Бытовая техника</span> 
+                        <ul class="sublist_categories">
+                            <li class="sublist_categories_item">Микроволновка</li>
+                            <li class="sublist_categories_item">Холодильники</li>
+                            <li class="sublist_categories_item">Посудомоечные машины</li>
+                            <li class="sublist_categories_item">Чайники</li>
+                        </ul>
+                    </li>
+                    <li class="list_categories-item">
+                        <span>Мобильная техника</span>
+                    </li>
+                    <li class="list_categories-item">
+                        <span>Компьютеры</span>
+                        <ul class="sublist_categories">
+                            <li class="sublist_categories_item">Настольный ПК</li>
+                            <li class="sublist_categories_item">Ноутбуки</li>
+                            <li class="sublist_categories_item">Планшеты</li>
+                        </ul>
+                    </li>
+                    <li class="list_categories-item">
+                        <span>Одежда</span>
+                    </li>
+                    <li class="list_categories-item">
+                        <span>Недвижимость</span>
+                    </li>
+                </ul>
+                
+                <a href="price.xlsx" download class="price_download">
+                    <div class="price_download_img">
+                        <img src="img/EXCEL.png" alt="">
+                    </div>
+                    <div class="price_descr">
+                        Прайс-лист
+                    </div>
+                </a>
+            </div>
+           <div class="product">
+               <div class="card">
+                   <img src="img/nophoto.jpg" alt="" class="card_img">
+                   <div class="card_descr">
+                        Самый клевый чайник, который надо купить!
+                   </div>
+                   <div class="card_footer">
+                       <div class="price">1 900 р.</div>
+                       <div class="basket">
+                           <img src="img/basket.png" alt="">
+                        </div>
+                   </div>
+               </div>
+
+               <div class="card">
+                <img src="img/nophoto.jpg" alt="" class="card_img">
+                <div class="card_descr">
+                     Самый клевый чайник, который надо купить!
+                </div>
+                <div class="card_footer">
+                    <div class="price">1 900 р.</div>
+                    <div class="basket">
+                        <img src="img/basket.png" alt="">
+                     </div>
+                </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/nophoto.jpg" alt="" class="card_img">
+                    <div class="card_descr">
+                        Самый клевый чайник, который надо купить!
+                    </div>
+                    <div class="card_footer">
+                        <div class="price">1 900 р.</div>
+                        <div class="basket">
+                            <img src="img/basket.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/nophoto.jpg" alt="" class="card_img">
+                    <div class="card_descr">
+                        Самый клевый чайник, который надо купить!
+                    </div>
+                    <div class="card_footer">
+                        <div class="price">1 900 р.</div>
+                        <div class="basket">
+                            <img src="img/basket.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="img/nophoto.jpg" alt="" class="card_img">
+                    <div class="card_descr">
+                        Самый клевый чайник, который надо купить!
+                    </div>
+                    <div class="card_footer">
+                        <div class="price">1 900 р.</div>
+                        <div class="basket">
+                            <img src="img/basket.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <ul class="counter">
+                    <li class="count">1</li>
+                    <li class="count">2</li>
+                    <li class="count count_active">3</li>
+                    <li class="count">4</li>
+                    <li class="count">5</li>
+                    <li class="count">6</li>
+                    <li class="count">7</li>
+                </ul>
+           </div>
+        </div>
+
+        <div class="about">
+            <div class="text">
+                Компания «Пиксель Плюс» существует более 6 лет, за это время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде.характерные для этого жанра мотивы: неразделённой любви, ухода молодости, угасания души.
+            </div>
+            <div class="text">
+                Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем московском офисе.
+            </div>
+        </div>
+    </div>
+
+    
+</section>
+
+<footer>
+    <div class="container container_footer">
+        <div class="wrap">
+            <div class="c">© 2012–2013 ЗАО «Компания»</div> 
+            <a class="mail" href="mailto:info@name.ru">info@name.ru</a>
+        </div>
+        <ul class="menu-wrap">
+            <li class="menu-item"><a class="menu-link" href="">Главная</a></li>
+            <li class="menu-item"><a class="menu-link" href="">Каталог</a></li>
+            <li class="menu-item"><a class="menu-link" href="">Доставка и оплата</a></li>
+            <li class="menu-item"><a class="menu-link" href="">Прайс-лист</a></li>
+            <li class="menu-item"><a class="menu-link" href="">Контакты</a></li>
+        </ul>
+    
+        <a href="https://art-sites.org/" class="link-dev">
+            <div class="wrap-dev">
+                <div class="img-dev">
+                    <img src="img/company.png" alt="">
+                </div>
+                <div class="name-comp"><span>Разработка сайта</span>  —  компания «Art-Sites»</div>
+            </div>
+        </a>
+    </div>
+</footer>
+</main>
+<script src="js/libs.min.js"></script>
+<script src="js/script.min.js"></script>
+</body>
+</html>
